@@ -3,15 +3,99 @@
 
 <head>
     <title>Zaatar Seti</title>
+    <link rel="stylesheet" href="assets/libs/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/libs/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <h1 class="center mt-5">Welcome to Zaatar Seti!</h1>
-    <img class="logo center" src="assets/images/brand/dark-green-logo.PNG" alt="Brand Logo">
-    <video class="center" controls>
-        <source src="assets/videos/test-video-1.MOV" type="video/mp4">
-    </video>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">زعتر ستي</a>
+            </div>
+        </nav>
+    </header>
+
+    <img class="rounded mx-auto d-block img-fluid mt-5 w-50" src="assets/images/brand/circular-transparent-logo.png"
+        alt="Brand Logo">
+
+    <div class="container text-center mt-5">
+        <div class="row align-items-end">
+            <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <video width="100%" autoplay muted>
+                    <source src="assets/videos/test-video-1.MOV" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <video width="100%" autoplay muted>
+                    <source src="assets/videos/copy_15010F9B-DB56-49BA-8E3F-1E921BDFDA64.MOV" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <video width="100%" autoplay muted>
+                    <source src="assets/videos/copy_4312D0F6-90B2-4E4D-88C7-4D33F98DDBB7.MOV" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <video width="100%" autoplay muted>
+                    <source src="assets/videos/copy_BA71E7C5-88DF-449C-BB3A-9A2902F4BFBE.MOV" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <video width="100%" autoplay muted>
+                    <source src="assets/videos/copy_DEC6EAB5-53F5-4537-AE5C-A48F79C29727.MOV" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <video width="100%" autoplay muted>
+                    <source src="assets/videos/copy_E89AE5F1-DBBF-4580-82A4-9FD478D6BBD8.MOV" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

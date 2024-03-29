@@ -1,6 +1,6 @@
 body {
     background-image: url('../images/brand/main-white-bg.PNG');
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 img.logo {
